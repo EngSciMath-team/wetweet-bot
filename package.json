@@ -4,13 +4,14 @@
   "description": "## Overview",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "superagent": "^4.0.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "start:prod"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
